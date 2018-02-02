@@ -1,11 +1,15 @@
 
 
-//if the day is sunday, what day is it?
-//write your code using enum and Sunday is your default 'day'
+#include <iostream>
+using namespace std;
 
-minggu hariIni;
+enum {Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday};
 
-cout<<"Hari ke-"hariIni+1;
-return 0;
+int main()
+{
 
-
+int minggu, hariIni;
+hariIni = Sunday;
+cout<<"Hari ke-"<<hariIni+1;
+return 0; 
+}
